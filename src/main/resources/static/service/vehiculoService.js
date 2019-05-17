@@ -17,7 +17,7 @@
             }).catch(function (data) {function listadeVehiculos() {
             return $http({
                 method: 'GET',
-                url:  '/VehiculoController',
+                url:  'localhost:8080/vehiculos/listVehiculos',
                 }
                 throw data;
             });
